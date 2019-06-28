@@ -62,9 +62,10 @@ var numbers = [40, 300, 2, 543, 67],
 
         // Car brands printed
         function carNames() {
-            var cars = ["BMW", "Volvo", "Volkswagen", "Ford", "Mercedes"];
-            var i;
-            var carBrandNames = " ";
+            var cars = ["BMW", "Volvo", "Volkswagen", "Ford", "Mercedes"],
+            i,
+            carBrandNames = " ";
+            
             for (i = 0; i < cars.length; i ++) {
                 carBrandNames = cars[i] + "<br>";
             }
